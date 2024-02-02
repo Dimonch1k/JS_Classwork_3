@@ -1,0 +1,32 @@
+body {
+    background-color: whitesmoke;
+    margin: 100px;
+    padding: 100px;
+}
+
+.grandparent {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    margin: 0px;
+
+}
+.parent {
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+}
+.child {
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+}
